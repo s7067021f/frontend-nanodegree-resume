@@ -2,6 +2,7 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 
+/*
 $("#main").append("Michael Sutherland.");
 
 var awesomeThoughts = " I am Michael and I am AWESOME!";
@@ -13,4 +14,6 @@ $("#main").append(funThoughts);
 var formattedName = HTMLheaderName.replace("%data%","Michael Sutherland");
 
 $("#main").prepend(formattedName);
+*/
+
 
