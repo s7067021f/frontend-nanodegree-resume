@@ -10,10 +10,11 @@ console.log(awesomeThoughts);
 
 var funThoughts = awesomeThoughts.replace("AWESOME","FUN");
 $("#main").append(funThoughts);
+*/
 
 var formattedName = HTMLheaderName.replace("%data%","Michael Sutherland");
-
 $("#main").prepend(formattedName);
-*/
+
+
 
 
