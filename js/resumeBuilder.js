@@ -13,10 +13,10 @@ $("#main").append(funThoughts);
 */
 
 var formattedRole = HTMLheaderRole.replace("%data%","Code Monkey");
-$("#main").prepend(formattedRole);
+$("#header").prepend(formattedRole);
 
 var formattedName = HTMLheaderName.replace("%data%","Michael Sutherland");
-$("#main").prepend(formattedName);
+$("#header").prepend(formattedName);
 
 
 
