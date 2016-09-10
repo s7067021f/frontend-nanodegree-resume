@@ -6,3 +6,7 @@ $("#main").append("Michael Sutherland");
 
 var awesomeThoughts = "I am Michael and I am AWESOME!";
 console.log(awesomeThoughts);
+
+var funThoughts = awesomeThoughts.replace("AWESOME","FUN");
+$("#main").append(funThoughts);
+
