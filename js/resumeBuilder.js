@@ -15,7 +15,7 @@ $("#main").append(funThoughts);
 var bio = {
   "name": "Michael Sutherland",
   "role": "Monkey",
-  "contactInfo": "myemailaddress@gmail.com",
+  "contactEmail": "myemailaddress@gmail.com",
   "pictureUrl": "http://ichef.bbci.co.uk/news/660/cpsprodpb/025B/production/_85730600_monkey2.jpg",
   "welcomeMessage": "Hello, this is a welcome message",
   "skills": ["awesomeness","programming"]
@@ -30,7 +30,7 @@ $("#header").prepend(formattedName);
 var welcomeMessage = HTMLwelcomeMsg.replace("%data%",bio.welcomeMessage);
 $("#header").append(welcomeMessage);
 
-var contactInfo = HTMLcontactGeneric.replace("%data%",bio.contactInfo);
+var contactEmail = HTMLemail.replace("%data%",bio.contactEmail);
 $("#header").append(contactInfo);
 
 var pictureUrl = HTMLbioPic.replace("%data%",bio.pictureUrl);
