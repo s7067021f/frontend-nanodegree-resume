@@ -31,7 +31,7 @@ var welcomeMessage = HTMLwelcomeMsg.replace("%data%",bio.welcomeMessage);
 $("#header").append(welcomeMessage);
 
 var contactEmail = HTMLemail.replace("%data%",bio.contactEmail);
-$("#header").append(contactInfo);
+$("#header").append(contactEmail);
 
 var pictureUrl = HTMLbioPic.replace("%data%",bio.pictureUrl);
 $("#header").append(pictureUrl);
