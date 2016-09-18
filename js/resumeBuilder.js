@@ -38,8 +38,8 @@ $("#header").append(contactEmail);
 //var locn = HTMLlocation.replace("%data%",bio.location);
 //$("#header").append(locn);
 
-//var twitter = HTMLtwitter.replace("%data%",bio.twitter);
-//$("#header").append(twitter);
+var twitter = HTMLtwitter.replace("%data%",bio.twitter);
+$("#header").append(twitter);
 
 var pictureUrl = HTMLbioPic.replace("%data%",bio.pictureUrl);
 $("#header").append(pictureUrl);
