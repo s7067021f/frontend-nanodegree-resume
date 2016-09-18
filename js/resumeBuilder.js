@@ -18,6 +18,8 @@ var bio = {
   "contactEmail": "myemailaddress@gmail.com",
   "pictureUrl": "http://ichef.bbci.co.uk/news/660/cpsprodpb/025B/production/_85730600_monkey2.jpg",
   "welcomeMessage": "Hello, this is a welcome message",
+  "location": "Singapore",
+  "twitter": "mjfs2012",
   "skills": ["awesomeness","programming"]
 }
 
@@ -32,6 +34,12 @@ $("#header").append(welcomeMessage);
 
 var contactEmail = HTMLemail.replace("%data%",bio.contactEmail);
 $("#header").append(contactEmail);
+
+var location = HTMLlocation.replace("%data%",bio.location);
+$("#header").append(location);
+
+var twitter = HTMLtwitter.replace("%data%",bio.twitter);
+$("#header").append(twitter);
 
 var pictureUrl = HTMLbioPic.replace("%data%",bio.pictureUrl);
 $("#header").append(pictureUrl);
