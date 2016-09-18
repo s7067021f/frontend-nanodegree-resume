@@ -44,6 +44,16 @@ $("#header").append(twitter);
 var pictureUrl = HTMLbioPic.replace("%data%",bio.pictureUrl);
 $("#header").append(pictureUrl);
 
+var work = {};
+work.currentPosition = "IT Tester";
+work.employer = "Credit Suisse";
+work.yearsWorked = "Twenty two";
+work.city = "Singapore";
+
+$("workExperience").append(work.currentPosition);
+
+
+
 
 
 
