@@ -35,8 +35,8 @@ $("#header").append(welcomeMessage);
 var contactEmail = HTMLemail.replace("%data%",bio.contactEmail);
 $("#header").append(contactEmail);
 
-var location = HTMLlocation.replace("%data%",bio.location);
-$("#header").append(location);
+var locn = HTMLlocation.replace("%data%",bio.location);
+$("#header").append(locn);
 
 //var twitter = HTMLtwitter.replace("%data%",bio.twitter);
 //$("#header").append(twitter);
