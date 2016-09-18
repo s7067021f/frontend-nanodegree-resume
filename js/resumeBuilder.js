@@ -12,11 +12,17 @@ var funThoughts = awesomeThoughts.replace("AWESOME","FUN");
 $("#main").append(funThoughts);
 */
 
-var formattedRole = HTMLheaderRole.replace("%data%","And Daddy loves Mia!");
+var formattedRole = HTMLheaderRole.replace("%data%","Code Monkey");
 $("#header").prepend(formattedRole);
 
-var formattedName = HTMLheaderName.replace("%data%","Daddy likes to learn!");
+var formattedName = HTMLheaderName.replace("%data%","Mike Sutherland");
 $("#header").prepend(formattedName);
+
+var bio = {
+  "name": "Michael Sutherland",
+  "role": "Monkey",
+  contactInfo
+}
 
 
 
