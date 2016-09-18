@@ -25,7 +25,7 @@ var bio = {
 
 var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
 $("#header").prepend(formattedRole);
-/*
+
 var formattedName = HTMLheaderName.replace("%data%",bio.name);
 $("#header").prepend(formattedName);
 
@@ -43,7 +43,7 @@ $("#header").append(contactEmail);
 
 var pictureUrl = HTMLbioPic.replace("%data%",bio.pictureUrl);
 $("#header").append(pictureUrl);
-*/
+
 
 
 
