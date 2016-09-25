@@ -50,7 +50,7 @@ work.employer = "Credit Suisse";
 work.yearsWorked = "Twenty two";
 work.city = "Singapore";
 
-$("#main").append(work.currentPosition);
+$("#header").append(work.currentPosition);
 
 
 
